@@ -6,6 +6,9 @@ logs
 *.log
 npm-debug.log*
 
+# Intellij related products
+.idea
+
 # Runtime data
 pids
 *.pid
