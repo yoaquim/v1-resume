@@ -1,8 +1,9 @@
 import React from 'react'
+import Resume from './Resume'
 
 let viewMap = {
     navBar: <NavBar />,
-    home: <Home />
+    home: <Resume />
 };
 
 function RouteContainer(props) {
@@ -14,18 +15,10 @@ function RouteContainer(props) {
     )
 }
 
-function Home() {
-    return (
-        <div>
-            <h1>This is the App.</h1>
-        </div>
-    )
-}
-
 function NavBar() {
     return (
         <div className="dummy-nav-bar">
-            <h3>
+            <h3 className="card">
                 This is a dummy navigation bar.
             </h3>
         </div>
