@@ -1,11 +1,15 @@
 import React from 'react'
 import AboutMe from './AboutMe'
+import Sheet from './Sheet'
 
 class Resume extends React.Component {
 
     render() {
         return (
-            <AboutMe/>
+            <div>
+                <AboutMe/>
+                <Sheet/>
+            </div>
         )
     }
 
