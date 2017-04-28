@@ -1,14 +1,14 @@
 import React from 'react'
-import Resume from './Resume'
+import Page from './Page'
 
 let viewMap = {
-    resume: <Resume />
+    page: <Page />
 };
 
 function RouteContainer(props) {
     return (
         <div>
-            {viewMap[props.params.path] || viewMap.resume}
+            {viewMap[props.params.path] || viewMap.page}
         </div>
     )
 }
