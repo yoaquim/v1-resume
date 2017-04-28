@@ -1,13 +1,14 @@
 @import "vendor/normalize.css";
 @import "vendor/bulma.css";
-@import "colors";
+@import "vars";
 
 @import "about-me";
-@import "education";
+@import "resume";
+@import "experience";
 
 body {
   background: @bgColor;
   color: @textColor;
-  height: 100vh;
-  padding-top: 30px;
+  padding-bottom: @bgPadding;
+  padding-top: @bgPadding;
 }

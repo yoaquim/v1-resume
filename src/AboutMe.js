@@ -22,8 +22,8 @@ class AboutMe extends React.Component {
                             </h1>
 
                             <p className="title is-5 description">
-                                I’m a <strong>resourceful</strong> software engineer with a <strong>love</strong> for
-                                learning, and a <strong>passion</strong> for doing it with amazing people.
+                                I’m a <strong>resourceful</strong> software engineer with a <strong>talent</strong> for
+                                learning, and a <strong>passion</strong> for doing it with amazing <strong>people</strong>.
                             </p>
                         </div>
                     </div>
