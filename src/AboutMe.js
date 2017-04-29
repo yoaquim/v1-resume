@@ -19,7 +19,7 @@ class AboutMe extends React.Component {
                             <div className="me-info">
                                 <h1 className="title is-1">Yoaquim Cintrón</h1>
                                 <p className="title is-6 description">
-                                    I’m a <strong>resourceful</strong> software engineer with a <strong>talent</strong>
+                                    I’m a <strong>resourceful</strong> software engineer with a <strong>talent</strong> &nbsp;
                                     for learning, and a <strong>passion</strong> for doing it with amazing <strong>people</strong>.
                                 </p>
                             </div>
@@ -29,26 +29,24 @@ class AboutMe extends React.Component {
 
 
                     <div className="level-right">
-                        <ul className="contact">
-                            <li className="contact-item">
-                                <a>
-                                    <span className="icon"><i className="fa fa-phone"></i></span>
-                                    <div className="contact-item is-inline-block">347-510-8940</div>
-                                </a>
-                            </li>
-                            <li className="contact-item">
-                                <a>
-                                    <span className="icon"><i className="fa fa-envelope"></i></span>
-                                    <div className="contact-item is-inline-block">yoaquim@outlook.com</div>
-                                </a>
-                            </li>
-                            <li className="contact-item">
-                                <a>
-                                    <span className="icon"><i className="fa fa-github"></i></span>
-                                    <div className="contact-item is-inline-block">Github</div>
-                                </a>
-                            </li>
-                        </ul>
+                        <div className="contact">
+                            <a className="panel-block contact-item" href="http://www.github.com/yoaquim" target="_blank">
+                                <span className="panel-icon"><i className="fa fa-github"></i></span>
+                                <span className="contact-item-text">Github</span>
+                            </a>
+                            <a className="panel-block contact-item" href="tel:+13475108940" target="_blank">
+                                <span className="panel-icon"><i className="fa fa-phone"></i></span>
+                                <span className="contact-item-text">347-510-8940</span>
+                            </a>
+                            <a className="panel-block contact-item" href="mailto:yoaquim@outlook.com" target="_blank">
+                                <span className="panel-icon"><i className="fa fa-envelope"></i></span>
+                                <span className="contact-item-text">yoaquim@outlook.com</span>
+                            </a>
+                            <a className="panel-block contact-item" href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188" target="_blank">
+                                <span className="panel-icon"><i className="fa fa-map-marker"></i></span>
+                                <span className="contact-item-text">New York, New York</span>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
