@@ -6,9 +6,9 @@ import Skills from './Skills'
 class Resume extends React.Component {
     render() {
         return (
-            <section className="sheet">
+            <section className="resume">
                 <div className="container">
-                    <div className="resume tile is-ancestor">
+                    <div className="tile is-ancestor">
                         <Education/>
                         <Experience/>
                         <Skills/>

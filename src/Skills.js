@@ -10,7 +10,7 @@ class Skills extends React.Component {
 
     render() {
         return (
-            <div className="tile is-vertical is-4 is-parent skills">
+            <div className="tile is-vertical is-4 is-parent skills-tile">
                 <Card icon="keyboard-o" title="Skills" classes="skills">
                     <div className="columns">
 
@@ -40,7 +40,6 @@ class Skills extends React.Component {
                                 <span className="icon"><h1 className="title is-5"><strong>ñ</strong></h1></span>
                                 <span className="title is-6 name"><strong>Español</strong></span>
                             </div>
-
                         </div>
 
                     </div>

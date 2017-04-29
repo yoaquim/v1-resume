@@ -4,21 +4,44 @@
 
 .about-me {
 
-  .me-image {
-    text-align: center;
-    figure {
-      display: inline-block;
-    }
+  .me-info {
+    padding-left: 20px;
   }
 
   img.me {
     border-radius: 50%;
-    margin: 0 auto;
-    width: auto;
   }
 
   .description {
+    max-width: 400px;
+    margin: 10px auto auto 10px;
     text-align: justify;
+  }
+
+}
+
+.about-me {
+
+  .contact {
+
+    a {
+      border: none;
+    }
+
+    .icon {
+      color: @iconColor;
+      margin-right: 10px;
+    }
+
+
+    .contact-item-text {
+      text-align: right;
+    }
+
+  }
+
+  .contact-item {
+    marging: 50px auto;
   }
 
 }

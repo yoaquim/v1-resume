@@ -17,9 +17,9 @@ class Card extends React.Component {
                     <a className="card-header-icon">
                         <span className="icon"><i className={this.state.icon}/></span>
                     </a>
-                    <p className="card-header-title">
+                    <div className="card-header-title">
                         {this.props.title}
-                    </p>
+                    </div>
                 </header>
                 <div className="card-content">
                     <div className="content">

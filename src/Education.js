@@ -17,12 +17,13 @@ class Education extends React.Component {
 
                 <Card icon={this.state.icon} title="Georgia Institute of Technology" classes="georgia-tech">
                     <h1 className="degree subtitle is-5"><strong>M.S. Computer Sciences</strong></h1>
-                    <h1 className="date subtitle is-6">Aug 2017</h1>
+                    <p className="date subtitle is-6"><strong>Accepted</strong></p>
+                    <p className="date subtitle is-6">Aug 2017 - May 2019 (Expected)</p>
                 </Card>
 
                 <Card icon={this.state.icon} title="University Of Puerto Rico at Mayagüez" classes="uprm">
                     <h1 className="degree subtitle is-5"><strong>B.S. Computer Engineering</strong></h1>
-                    <h1 className="date subtitle is-6">Mar 2014</h1>
+                    <p className="date subtitle is-6">Mar 2014</p>
                 </Card>
 
             </div>

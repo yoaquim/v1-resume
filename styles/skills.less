@@ -1,5 +1,21 @@
 .skills {}
 
+.skills {
+
+  #skills-1,
+  #skills-2{
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    padding-top: 12px;
+  }
+
+}
+
+// Skill styles
+
 .skill {
   padding: 10px 5px;
    .name {
@@ -11,4 +27,12 @@
   font-family: Courier;
   font-size: 180%;
   color: @iconColor;
+}
+
+.skill:first-child {
+  padding-top: 0;
+}
+
+.skill:last-child {
+  padding-bottom: 0;
 }
