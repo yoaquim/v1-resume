@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import Message from './Message'
 
 class Education extends React.Component {
 
@@ -15,13 +16,13 @@ class Education extends React.Component {
             <div className="tile is-vertical is-4 is-parent education">
 
                 <Card icon={this.state.icon} title="Georgia Institute of Technology" classes="georgia-tech">
-                    <p className="education-description"><strong>Accepted</strong>: MS in Computer Science</p>
-                    <p className="education-description"><strong>StartDate</strong>: August 2017</p>
+                    <h1 className="degree subtitle is-5"><strong>M.S. Computer Sciences</strong></h1>
+                    <h1 className="date subtitle is-6">Aug 2017</h1>
                 </Card>
 
                 <Card icon={this.state.icon} title="University Of Puerto Rico at Mayagüez" classes="uprm">
-                    <p className="education-description">May 2014</p>
-                    <p className="education-description">B.S. Computer Engineering</p>
+                    <h1 className="degree subtitle is-5"><strong>B.S. Computer Engineering</strong></h1>
+                    <h1 className="date subtitle is-6">Mar 2014</h1>
                 </Card>
 
             </div>
