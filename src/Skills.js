@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import Skill from './Skill'
+import Skill from './SingleSkill'
 
 class Skills extends React.Component {
 
@@ -37,7 +37,7 @@ class Skills extends React.Component {
                             <Skill icon="code-fork" name="Git"/>
 
                             <div className="skill spanish">
-                                <span className="icon"><h1 className="title is-5"><strong>ñ</strong></h1></span>
+                                <span className="icon"><h1 className="title is-5">ñ</h1></span>
                                 <span className="title is-6 name"><strong>Español</strong></span>
                             </div>
                         </div>

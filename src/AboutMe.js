@@ -38,13 +38,13 @@ class AboutMe extends React.Component {
                                 <span className="panel-icon"><i className="fa fa-phone"></i></span>
                                 <span className="contact-item-text">347-510-8940</span>
                             </a>
-                            <a className="panel-block contact-item" href="mailto:yoaquim@outlook.com" target="_blank">
-                                <span className="panel-icon"><i className="fa fa-envelope"></i></span>
-                                <span className="contact-item-text">yoaquim@outlook.com</span>
-                            </a>
                             <a className="panel-block contact-item" href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188" target="_blank">
                                 <span className="panel-icon"><i className="fa fa-map-marker"></i></span>
                                 <span className="contact-item-text">New York, New York</span>
+                            </a>
+                            <a className="panel-block contact-item" href="mailto:yoaquim@outlook.com" target="_blank">
+                                <span className="panel-icon"><i className="fa fa-envelope"></i></span>
+                                <span className="contact-item-text">yoaquim@outlook.com</span>
                             </a>
                         </div>
                     </div>
