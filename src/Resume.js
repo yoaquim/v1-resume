@@ -2,7 +2,7 @@ import React from 'react'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
-import ExperienceModal from "./ExperienceModal";
+import ExperienceModal from './ExperienceModal';
 
 class Resume extends React.Component {
 

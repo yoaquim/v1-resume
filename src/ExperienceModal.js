@@ -28,7 +28,9 @@ class ExperienceModal extends React.Component {
     render() {
         return (
             <div className={this.state.classes}>
-                <div className="modal-background"></div>
+                <div className="modal-background" onClick={() => {
+                    return this.props.updateModalStatus('OFF')
+                }}> </div>
 
                 <div className="modal-content">
                     <Card icon="briefcase" title={this.state.status} classes="modal-card">
@@ -38,7 +40,7 @@ class ExperienceModal extends React.Component {
 
                 <button className="modal-close" onClick={() => {
                     return this.props.updateModalStatus('OFF')
-                }}></button>
+                }}> </button>
             </div>
         )
     }
