@@ -14,17 +14,26 @@ class Experience extends React.Component {
         return (
             <div className="tile is-vertical is-4 is-parent experience">
 
-                <Card icon={this.state.icon} title="IntentMedia" classes="intent">
+                <Card icon={this.state.icon} title="IntentMedia" classes="intent"
+                      doAction={() => {
+                          return this.props.updateModalStatus('INTENT_MEDIA')
+                      }}>
                     <div className="role subtitle">Software Engineer, People Manager</div>
                     <div className="subtitle is-6 date">Mar 2015 – Now</div>
                 </Card>
 
-                <Card icon={this.state.icon} title="Hackerati" classes="hack">
+                <Card icon={this.state.icon} title="Hackerati" classes="hack"
+                      doAction={() => {
+                          return this.props.updateModalStatus('HACKERATI')
+                      }}>
                     <div className="role subtitle">Software Engineer</div>
                     <div className="subtitle is-6 date">Jan 2015 – Sep 2015</div>
                 </Card>
 
-                <Card icon={this.state.icon} title="Optivon" classes="optivon">
+                <Card icon={this.state.icon} title="Optivon" classes="optivon"
+                      doAction={() => {
+                          return this.props.updateModalStatus('OPTIVON')
+                      }}>
                     <div className="role subtitle">Software Engineer</div>
                     <div className="subtitle is-6 date">Oct 2013 – Dec 2014</div>
                 </Card>

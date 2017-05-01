@@ -17,7 +17,7 @@ class AboutMe extends React.Component {
                             </div>
 
                             <div className="me-info">
-                                <h1 className="title is-1">Yoaquim Cintrón</h1>
+                                <h1 className="title is-1 name">Yoaquim Cintrón</h1>
                                 <p className="title is-6 description">
                                     I’m a <strong>resourceful</strong> software engineer with a <strong>talent</strong> &nbsp;
                                     for learning, and a <strong>passion</strong> for doing it with amazing <strong>people</strong>.

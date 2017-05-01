@@ -4,6 +4,7 @@ class Card extends React.Component {
 
     constructor(props) {
         super();
+
         this.state = {
             icon: 'fa fa-' + props.icon,
             cardClass: 'card tile is-child ' + props.classes
@@ -12,7 +13,7 @@ class Card extends React.Component {
 
     render() {
         return (
-            <div className={this.state.cardClass}>
+            <div className={this.state.cardClass} onClick={this.props.doAction}>
                 <header className="card-header">
                     <a className="card-header-icon">
                         <span className="icon"><i className={this.state.icon}/></span>
