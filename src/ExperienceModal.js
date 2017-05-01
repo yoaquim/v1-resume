@@ -1,8 +1,10 @@
 import React from 'react'
+import Card from './Card'
 
 let getClasses = (status) => {
-    let OFF = 'modal';
-    let ON = 'modal is-active';
+    let baseClasses = 'experience-modal modal'
+    let OFF = baseClasses;
+    let ON = baseClasses + ' is-active';
     return status === 'OFF' ? OFF : ON;
 }
 
@@ -29,9 +31,9 @@ class ExperienceModal extends React.Component {
                 <div className="modal-background"></div>
 
                 <div className="modal-content">
-                    <p className="work-description">
-                        I've done many interesting things.
-                    </p>
+                    <Card icon="briefcase" title={this.state.status} classes="modal-card">
+                        <p>I do a lot of cool shit at work</p>
+                    </Card>
                 </div>
 
                 <button className="modal-close" onClick={() => {
