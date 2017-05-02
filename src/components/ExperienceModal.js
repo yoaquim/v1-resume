@@ -1,11 +1,33 @@
 import React from 'react'
 import Card from './Card'
+import experience from '../data/experience'
 
 let getClasses = (status) => {
     let baseClasses = 'experience-modal modal'
     let OFF = baseClasses;
     let ON = baseClasses + ' is-active';
     return status === 'OFF' ? OFF : ON;
+}
+
+let getExperienceCard = (status) => {
+
+    if(status === 'OFF') {
+        return;
+    }
+
+    let expToRender = experience[status];
+    let highlights = expToRender.highlights.map((highlight) => {
+        return <li className="highlight">{ highlight }</li>
+    });
+
+    return (
+        <Card icon="briefcase" title={expToRender.title} classes="experience-modal-card">
+            <p className="description">{expToRender.description}</p>
+            <ul className="highlights">
+                { highlights }
+            </ul>
+        </Card>
+    )
 }
 
 class ExperienceModal extends React.Component {
@@ -30,17 +52,15 @@ class ExperienceModal extends React.Component {
             <div className={this.state.classes}>
                 <div className="modal-background" onClick={() => {
                     return this.props.updateModalStatus('OFF')
-                }}> </div>
+                }}></div>
 
                 <div className="modal-content">
-                    <Card icon="briefcase" title={this.state.status} classes="modal-card">
-                        <p>I do a lot of cool shit at work</p>
-                    </Card>
+                    { getExperienceCard(this.state.status) }
                 </div>
 
                 <button className="modal-close" onClick={() => {
                     return this.props.updateModalStatus('OFF')
-                }}> </button>
+                }}></button>
             </div>
         )
     }

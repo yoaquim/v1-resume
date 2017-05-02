@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 
-import RouteContainer from './RouteContainer'
+import RouteContainer from './components/RouteContainer'
 
 class App extends React.Component {
 

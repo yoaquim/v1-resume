@@ -1,4 +1,4 @@
-const path  = require('path');
+const path = require('path');
 
 module.exports = {
     entry: [
@@ -27,6 +27,10 @@ module.exports = {
             {
                 test: /\.less$/,
                 loader: "style!css!autoprefixer!less-loader"
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             }
         ]
     },
