@@ -20,6 +20,7 @@ class Experience extends React.Component {
                       }}>
                     <div className="role subtitle">Software Engineer, People Manager</div>
                     <div className="subtitle is-6 date">Mar 2015 – Now</div>
+                    <div className="subtitle is-6 location">New York, New York</div>
                 </Card>
 
                 <Card icon={this.state.icon} title="Hackerati" classes="hack"
@@ -28,6 +29,7 @@ class Experience extends React.Component {
                       }}>
                     <div className="role subtitle">Software Engineer</div>
                     <div className="subtitle is-6 date">Jan 2015 – Sep 2015</div>
+                    <div className="subtitle is-6 location">New York, New York</div>
                 </Card>
 
                 <Card icon={this.state.icon} title="Optivon" classes="optivon"
@@ -36,6 +38,7 @@ class Experience extends React.Component {
                       }}>
                     <div className="role subtitle">Software Engineer</div>
                     <div className="subtitle is-6 date">Oct 2013 – Dec 2014</div>
+                    <div className="subtitle is-6 location">San Juan, Puerto Rico</div>
                 </Card>
 
             </div>

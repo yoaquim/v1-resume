@@ -2,7 +2,11 @@
   "INTENT_MEDIA": {
     "title": "IntentMedia",
     "description": "Currently work here.",
-    "highlights": []
+    "highlights": [
+      "Work with dogs",
+      "Nice People",
+      "Cool office"
+    ]
   },
   "HACKERATI": {
     "title": "Hackerati",
