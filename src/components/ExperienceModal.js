@@ -11,21 +11,32 @@ let getClasses = (status) => {
 
 let getExperienceCard = (status) => {
 
-    if(status === 'OFF') {
+    if (status === 'OFF') {
         return;
     }
-
+    'angle-double-right'
     let expToRender = experience[status];
     let highlights = expToRender.highlights.map((highlight) => {
-        return <li className="highlight">{ highlight }</li>
+        return (
+            <div className="highlight">
+                <span className="icon"><i className="fa  fa-angle-double-right"/></span>
+                <span className="text">{ highlight }</span>
+            </div>
+        )
     });
 
     return (
         <Card icon="briefcase" title={expToRender.title} classes="experience-modal-card">
-            <p className="description">{expToRender.description}</p>
-            <ul className="highlights">
-                { highlights }
-            </ul>
+            <div className="description-section">
+                <div className="title is-6">Description</div>
+                <div className="description">{expToRender.description}</div>
+            </div>
+            <div className="highlights-section">
+                <div className="title is-6">Highlights</div>
+                <div className="highlights">
+                    { highlights }
+                </div>
+            </div>
         </Card>
     )
 }
