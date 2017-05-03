@@ -16,6 +16,7 @@ class Skills extends React.Component {
 
                         <div id="skills-1" className="column is-half">
                             <Skill icon="cubes" name="AWS"/>
+                            <Skill icon="sitemap" name="CI/CD"/>
                             <Skill icon="sitemap" name="Terraform"/>
                             <Skill icon="server" name="Docker"/>
                             <Skill icon="check-circle" name="Testing"/>
