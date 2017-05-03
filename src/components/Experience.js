@@ -14,7 +14,7 @@ class Experience extends React.Component {
         return (
             <div className="tile is-vertical is-4 is-parent experience">
 
-                <Card icon={this.state.icon} title="IntentMedia" classes="intent"
+                <Card icon={this.state.icon} secondIcon="exclamation-circle" title="IntentMedia" classes="intent"
                       doAction={() => {
                           return this.props.updateModalStatus('INTENT_MEDIA')
                       }}>
@@ -23,7 +23,7 @@ class Experience extends React.Component {
                     <div className="subtitle is-6 location">New York, New York</div>
                 </Card>
 
-                <Card icon={this.state.icon} title="Hackerati" classes="hack"
+                <Card icon={this.state.icon} secondIcon="exclamation-circle" title="Hackerati" classes="hack"
                       doAction={() => {
                           return this.props.updateModalStatus('HACKERATI')
                       }}>
@@ -32,7 +32,7 @@ class Experience extends React.Component {
                     <div className="subtitle is-6 location">New York, New York</div>
                 </Card>
 
-                <Card icon={this.state.icon} title="Optivon" classes="optivon"
+                <Card icon={this.state.icon} secondIcon="exclamation-circle"  title="Optivon" classes="optivon"
                       doAction={() => {
                           return this.props.updateModalStatus('OPTIVON')
                       }}>

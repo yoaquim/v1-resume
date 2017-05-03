@@ -1,9 +1,19 @@
 import React from 'react'
 
+let secondIcon = (secondIcon) => {
+    if (!secondIcon) {
+        return;
+    }
+    return (
+        <span className="icon second-icon"><i className={"fa fa-" + secondIcon + " is-pulled-right"}/></span>
+    )
+}
+
 class Card extends React.Component {
 
     constructor(props) {
         super();
+        debugger;
 
         this.state = {
             icon: 'fa fa-' + props.icon,
@@ -21,6 +31,7 @@ class Card extends React.Component {
                     <div className="card-header-title">
                         {this.props.title}
                     </div>
+                    { secondIcon(this.props.secondIcon) }
                 </header>
                 <div className="card-content">
                     <div className="content">

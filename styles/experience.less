@@ -1,4 +1,5 @@
 @cardContentVerticalPadding: 15px;
+
 .experience {
 
   .role {
@@ -17,6 +18,25 @@
   .card-content {
     padding-top: @cardContentVerticalPadding;
     padding-bottom: @cardContentVerticalPadding;
+  }
+
+  .second-icon {
+    margin: auto 10px;
+    -webkit-animation: fadeinout 2s linear infinite;
+    animation: fadeinout 2s linear infinite;
+    opacity: 0;
+  }
+
+  @-webkit-keyframes fadeinout {
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeinout {
+    50% {
+      opacity: 1;
+    }
   }
 
 }
