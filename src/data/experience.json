@@ -1,23 +1,36 @@
 {
   "INTENT_MEDIA": {
     "title": "IntentMedia",
-    "description": "Currently work here.",
+    "description": "Deliver client requested and business critical features for the \"ad server\" – which provides advertisement and segmentation services to our clients – and other related tools. Develop and mantain all the infrastructure as well. Strong advocate for TDD, pairing and mobbing.",
     "highlights": [
-      "Work with dogs",
-      "Nice People",
-      "Cool office"
+      "Implement mapping system to link and adapt customer data to our own",
+      "Migrate legacy Rails system to AWS ECS",
+      "Re-implement legacy systems on AWS Cloud (Lambda, S3, etc)",
+      "Implement a serverless, high-traffic API on AWS",
+      "Automate testing and deployment (CI & CD) of team-owned products",
+      "Extensive frontend work on my old squad, pushing for new approaches and technologies",
+      "Drive team initiatives to move/iterate faster, both on code and off",
+      "Manage and mentor junior engineer: tech, career and performance -wise"
     ]
   },
   "HACKERATI": {
     "title": "Hackerati",
-    "description": "Hacekd a lot!",
-    "highlights": []
+    "description": "Worked as a consultant that would be brought on to clients to either lead new projects, or solve challenging software impediments. Focused mostly on building front-end solutions that could scale, and augmenting existing teams in order to meet hard deadlines. Aside from client work, lead internal projects and ideation around building public facing products.",
+    "highlights": [
+      "Successfully develop and deploy an SPA e-commerce Angular app",
+      "Consultant brought on to client projects",
+      "Led in-house initiatives & projects",
+      "Manage responsibilities of consulting and dealing with external clients"
+    ]
   },
   "OPTIVON": {
     "title": "Optivon",
-    "description": "Worked in Guaynabo PR",
+    "description": "Part of a small team dedicated on product development, design, implementation and every other aspect of a law-enforcement software suite, consisting of both a mobile app (SentiGuard) and a website control-center. Laid the foundation for the Android app and fully developed the web app – both back-end and front-end.",
     "highlights": [
-      "Helped build early stages of SentiGuard"
+      "Tech lead, making decisions on tech stack, DevOps and solutions",
+      "Partially developed an Android app(SentiGuard), Web app and API",
+      "Worked on official United States Coast Guard Android app",
+      "More than just tech work: design, sales and everything in between"
     ]
   }
 }
