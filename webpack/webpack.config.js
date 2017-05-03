@@ -6,7 +6,7 @@ module.exports = {
         './styles/app.less'
     ],
     output: {
-        path: './public',
+        path: path.resolve(__dirname, 'public'),
         filename: 'app.js'
     },
     devServer: {
@@ -19,14 +19,14 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel',
+                loader: 'babel-loader',
                 query: {
                     presets: ['react', 'es2015', 'stage-2']
                 }
             },
             {
                 test: /\.less$/,
-                loader: "style!css!autoprefixer!less-loader"
+                loader: "style-loader!css-loader!autoprefixer-loader!less-loader"
             },
             {
                 test: /\.json$/,
