@@ -11,7 +11,7 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="tile is-vertical is-4 is-parent skills-tile">
-                <Card icon="keyboard-o" title="Skills" classes="skills">
+                <Card icon="keyboard-o" title="Top Skills" classes="skills">
                     <div className="columns">
 
                         <div id="skills-1" className="column is-half">
