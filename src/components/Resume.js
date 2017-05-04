@@ -4,6 +4,14 @@ import Experience from './Experience'
 import Skills from './Skills'
 import ExperienceModal from './ExperienceModal';
 
+let toggleFreezeBody = (status) => {
+    if (status === 'OFF') {
+        document.body.classList.remove('freeze');
+    } else {
+        document.body.classList.add('freeze');
+    }
+}
+
 class Resume extends React.Component {
 
     constructor() {
@@ -16,6 +24,7 @@ class Resume extends React.Component {
     }
 
     updateModalStatus(status) {
+        toggleFreezeBody(status);
         this.setState({
             modalStatus: status
         });

@@ -12,6 +12,11 @@
 body {
   background: @bgColor;
   color: @textColor;
+  height: 100vh;
   padding-bottom: @bgPadding;
   padding-top: @bgPadding;
+
+  &.freeze {
+    overflow: hidden;
+  }
 }

@@ -13,7 +13,6 @@ class Card extends React.Component {
 
     constructor(props) {
         super();
-        debugger;
 
         this.state = {
             icon: 'fa fa-' + props.icon,
