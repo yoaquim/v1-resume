@@ -1,3 +1,1 @@
-# Resume
-
-My resume, in code.
+# OLD Resume — deprecated.
